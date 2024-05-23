@@ -4,8 +4,8 @@
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
-    "start:vite": "vite --port 3000",
-    "start": "node -r dotenv/config server.js"
+    "start": "vite --port 3000",
+    "start:nodejs": "node -r  server.js"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^3.1.0",
